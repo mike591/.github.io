@@ -2,6 +2,7 @@
     <head>
     <title>Michael Mach Recipe</title>
     </head>
+
     <body>
       <header>
         <img src="https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/4/appacademy.png" alt="App Academy Logo">
@@ -63,6 +64,36 @@
               <li> Add 1 grind of black pepper </li>
               <li> Add 3 tablespoons whole milk until light and foamy </li>
             </ol>
+        </section>
+
+        <section>
+          <form action="/reviews" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"> <br><br>
+
+            <label for="rating">Rating</label>
+            <input type="radio" name="rating" value="1" checked>
+            <input type="radio" name="rating" value="2">
+            <input type="radio" name="rating" value="3">
+            <input type="radio" name="rating" value="4">
+            <input type="radio" name="rating" value="5"> <br><br>
+
+            <label for="expertise">Cooking Expertise</label>
+            <select id="expertise" name="expertise">
+              <option value="Select Cooking Expertise" selected="true" disabled="disabled">Select Cooking Expertise</option>
+              <option value="Sometimes Cook">Sometimes Cook</option>
+              <option value="Cook Everyday">Cook Everyday</option>
+              <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+              <option value="Professional Chef">Professional Chef</option>
+            </select><br><br>
+
+            <label>Review
+              <textarea name="review" cols="30" rows="10"></textarea>
+            </label>
+            <input type="submit" value="Submit Review">
+
+
+          </form>
         </section>
 
         <footer>
