@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+header > img {
+  width: 100px;
+}
+
+ul li a {
+  color: inherit;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
