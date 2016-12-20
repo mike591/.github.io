@@ -4,7 +4,7 @@
       <meta name="description" content="Quick and simple scrambled egg recipe.">
       <meta charset="utf-8">
 
-      <link rel="stylesheet" type="text/css" href="css_reset.css">
+      <link rel="stylesheet" type="text/css" href="css_custom_reset.css">
       <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
       <script type="text/javascript" src="external_javascript_example.js"/>
@@ -45,66 +45,72 @@
       </aside>
 
 
-        <section>
-          <h1> Scrambled Eggs </h1>
+      <section class="main">
+        <h1> Scrambled Eggs </h1>
 
-          <figure>
-            <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Scrambed_eggs.jpg" width="500" height="500"> </img></p>
-          </figure>
-          <figcaption>
-            <p><a href="https://en.wikipedia.org/wiki/Scrambled_eggs"> Wiki link to recipe </a></p>
-          </figcaption>
+        <figure>
+          <p><img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Scrambed_eggs.jpg" width="500" height="500"> </img></p>
+        </figure>
+        <figcaption>
+          <p><a href="https://en.wikipedia.org/wiki/Scrambled_eggs"> Wiki link to recipe </a></p>
+        </figcaption>
 
-          <h2> Description </h2>
-          <a name="Description" />
-          <p>
-            Scramble eggs is one of the most basic recipes you can make.
-            It involves very few ingredients and is a great introduction
-            towards becoming a good cook. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Quisque fermentum magna in ante porta
-            laoreet. Donec luctus dapibus sodales. Pellentesque porttitor
-            dictum ex, eu ullamcorper tellus porttitor varius. Donec aliquet
-            vel sem ut maximus. Nunc tristique pharetra mauris nec fermentum.
-            Nullam scelerisque eleifend felis, in congue orci lobortis at. Nam
-            eu nibh erat. Pellentesque ullamcorper velit vel tellus hendrerit
-            cursus. Nunc a tortor vitae orci eleifend consectetur tempus vel
-            tellus. Fusce quis dui id elit auctor lobortis. Maecenas nec
-            commodo arcu.
-          </p>
+        <h2> Description </h2>
+        <a name="Description" />
+        <p>
+          Scramble eggs is one of the most basic recipes you can make.
+          It involves very few ingredients and is a great introduction
+          towards becoming a good cook. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Quisque fermentum magna in ante porta
+          laoreet. Donec luctus dapibus sodales. Pellentesque porttitor
+          dictum ex, eu ullamcorper tellus porttitor varius. Donec aliquet
+          vel sem ut maximus. Nunc tristique pharetra mauris nec fermentum.
+          Nullam scelerisque eleifend felis, in congue orci lobortis at. Nam
+          eu nibh erat. Pellentesque ullamcorper velit vel tellus hendrerit
+          cursus. Nunc a tortor vitae orci eleifend consectetur tempus vel
+          tellus. Fusce quis dui id elit auctor lobortis. Maecenas nec
+          commodo arcu.
+        </p>
 
 
-          <h2> Directions </h2>
-          <a name="Directions" />
-            <ol>
-              <li> Add 3 large eggs Whisked </li>
-              <li> Add 1 pinch of kosher salt </li>
-              <li> Add 1 grind of black pepper </li>
-              <li> Add 3 tablespoons whole milk until light and foamy </li>
-            </ol>
-        </section>
+        <h2> Directions </h2>
+        <a name="Directions" />
+          <ol class="directions">
+            <li> Add 3 large eggs Whisked </li>
+            <li> Add 1 pinch of kosher salt </li>
+            <li> Add 1 grind of black pepper </li>
+            <li> Add 3 tablespoons whole milk until light and foamy </li>
+          </ol>
+          <br><br>
+
 
         <section id="reviews">
+          <h2>Review</h2>
           <form id="review-form" action="/reviews" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"> <br><br>
+            <label for="name">Name
+              <input type="text" id="name" name="name"> <br><br>
+            </label>
 
-            <label for="rating">Rating</label>
-            <input type="radio" name="rating" value="1" checked>
-            <input type="radio" name="rating" value="2">
-            <input type="radio" name="rating" value="3">
-            <input type="radio" name="rating" value="4">
-            <input type="radio" name="rating" value="5"> <br><br>
+            <label for="rating">
+              <input type="radio" name="rating" value="1" checked>
+              <input type="radio" name="rating" value="2">
+              <input type="radio" name="rating" value="3">
+              <input type="radio" name="rating" value="4">
+              <input type="radio" name="rating" value="5"> <br><br>
+            </label>
 
-            <label for="expertise">Cooking Expertise</label>
-            <select id="expertise" name="expertise">
-              <option value="Select Cooking Expertise" selected="true" disabled="disabled">Select Cooking Expertise</option>
-              <option value="Sometimes Cook">Sometimes Cook</option>
-              <option value="Cook Everyday">Cook Everyday</option>
-              <option value="Cooking is a Hobby">Cooking is a Hobby</option>
-              <option value="Professional Chef">Professional Chef</option>
-            </select><br><br>
+            <label for="expertise">
+              <select id="expertise" name="expertise">
+                <option value="Select Cooking Expertise" selected="true" disabled="disabled">Select Cooking Expertise</option>
+                <option value="Sometimes Cook">Sometimes Cook</option>
+                <option value="Cook Everyday">Cook Everyday</option>
+                <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+                <option value="Professional Chef">Professional Chef</option>
+              </select>
+            </label>
+            <br><br>
 
-            <label>Review
+            <label>
               <textarea name="review" cols="30" rows="10"></textarea>
             </label>
             <input type="submit" value="Submit Review">
@@ -112,14 +118,16 @@
 
           </form>
         </section>
+      </section>
+      <br><br>
 
-        <footer>
-          <p> Recipe from Food Networks Alton Brown
-            <a href="http://www.foodnetwork.com/recipes/alton-brown/perfect-scrambled-eggs-recipe.html">
-              link
-            </a>
-          </p>
-        </footer>
+      <footer>
+        <p> Recipe from Food Networks Alton Brown
+          <a href="http://www.foodnetwork.com/recipes/alton-brown/perfect-scrambled-eggs-recipe.html">
+            link
+          </a>
+        </p>
+      </footer>
 
     </body>
 </html>

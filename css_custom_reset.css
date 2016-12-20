@@ -1,0 +1,57 @@
+html, head, title, body, header,
+nav, ul, li, aside, h2, a, section, h1, figure, p, figcaption,
+form, label, input, select, option,textarea {
+
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+
+}
+
+img {
+  width: 100%;
+}
+
+input[type='radio'] {
+  cursor: pointer;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+
+input:last-child {
+    background: gold;
+}
+
+input:last-child:hover {
+    -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
+}
