@@ -2035,8 +2035,9 @@
 .gallery-row {
 	display: flex;
 	list-style: none;
-	justify-content: space-between;
+	justify-content: flex-start;
 	font-size: 80px;
+	margin-bottom: 100px;
 }
 
 	ol {
