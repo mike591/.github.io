@@ -158,7 +158,7 @@
 		}
 
 		.container {
-			width: 85% !important;
+			width: 85% ;
 		}
 
 	}
@@ -184,7 +184,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 90% ;
 		}
 
 	}
@@ -210,7 +210,7 @@
 		}
 
 		.container {
-			width: 90% !important;
+			width: 90% ;
 		}
 
 	}
@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4acaa8 ;
 		}
 
 	strong, b {
@@ -1804,7 +1804,7 @@
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
-			text-transform: none !important;
+			text-transform: none ;
 		}
 
 		.select-wrapper:before {
@@ -1870,7 +1870,7 @@
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
-				text-transform: none !important;
+				text-transform: none ;
 			}
 
 			input[type="checkbox"] + label:before,
@@ -1911,31 +1911,31 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #aaa !important;
+		color: #aaa ;
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #aaa !important;
+		color: #aaa ;
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #aaa !important;
+		color: #aaa ;
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #aaa !important;
+		color: #aaa ;
 		font-style: italic;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #aaa !important;
+		color: #aaa ;
 		font-style: italic;
 		opacity: 1.0;
 	}
@@ -1975,7 +1975,7 @@
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
-			text-transform: none !important;
+			text-transform: none ;
 		}
 
 		.icon > .label {
@@ -2031,6 +2031,13 @@
 			}
 
 /* List */
+
+.gallery-row {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	font-size: 80px;
+}
 
 	ol {
 		list-style: decimal;
@@ -2088,7 +2095,7 @@
 					font-family: FontAwesome;
 					font-style: normal;
 					font-weight: normal;
-					text-transform: none !important;
+					text-transform: none ;
 				}
 
 				ul.feature-icons li:before {
@@ -2117,7 +2124,7 @@
 			}
 
 				ul.icons li:last-child {
-					padding-right: 0 !important;
+					padding-right: 0 ;
 				}
 
 				ul.icons li .icon:before {
@@ -2280,7 +2287,7 @@
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #ffffff !important;
+		color: #ffffff ;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2297,7 +2304,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #a5a5a5;
-			color: #ffffff !important;
+			color: #ffffff ;
 		}
 
 		input[type="submit"]:active,
@@ -2350,7 +2357,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e4e4e4;
-			color: #777 !important;
+			color: #777 ;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2358,7 +2365,7 @@
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background-color: #f4f4f4;
-				color: #777 !important;
+				color: #777 ;
 			}
 
 			input[type="submit"].alt:active,
@@ -2380,7 +2387,7 @@
 		input[type="button"].special,
 		.button.special {
 			background-color: #4acaa8;
-			color: #ffffff !important;
+			color: #ffffff ;
 		}
 
 			input[type="submit"].special:hover,
@@ -2404,9 +2411,9 @@
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #888 !important;
+			background-color: #888 ;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
+			color: #fff ;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2489,7 +2496,7 @@
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #ffffff ;
 			}
 
 		#header > header {
@@ -2561,7 +2568,7 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #ffffff ;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2569,7 +2576,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #4acaa8 ;
 						}
 
 					#header > nav ul li:first-child {
@@ -2844,7 +2851,7 @@
 						font-family: FontAwesome;
 						font-style: normal;
 						font-weight: normal;
-						text-transform: none !important;
+						text-transform: none ;
 					}
 
 					#titleBar .toggle:before {
@@ -3058,7 +3065,7 @@
 
 					ul.actions li > * {
 						width: 100%;
-						margin: 0 !important;
+						margin: 0 ;
 					}
 
 						ul.actions li > *.icon:before {
